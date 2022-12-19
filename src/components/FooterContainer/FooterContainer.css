@@ -1,0 +1,17 @@
+.footer--container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 1.5em;
+
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+    background-color: #161619;
+}
+
+.footer--container div > img {
+    cursor: pointer;
+}

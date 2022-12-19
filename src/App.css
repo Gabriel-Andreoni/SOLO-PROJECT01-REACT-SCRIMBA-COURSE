@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.main--container {
+    width: 100%;
+    height: auto;
+
+    padding: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    background-color: #23252C;    
+}

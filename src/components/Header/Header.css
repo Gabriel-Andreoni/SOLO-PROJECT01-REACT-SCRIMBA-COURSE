@@ -1,0 +1,56 @@
+.header--photoContainer {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    background-image: url('../../../assets/profile-photo.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 18%;
+
+    background-size: cover;
+}
+
+.header--titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header--titleContainer a {
+    text-decoration: none;
+}
+
+
+.header--titleContainer h1, h5, h6 {
+    margin-top: .8em;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.header--titleContainer h1 {
+    font-size: 1.6em;
+    font-weight: normal;
+
+    color: #fefefe;
+}
+
+.header--titleContainer h5 {
+    font-size: .8em;
+
+    color: #F3BF99;
+}
+
+.header--titleContainer h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+
+    color: #fefefe;
+}

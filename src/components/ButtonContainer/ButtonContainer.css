@@ -1,0 +1,81 @@
+.button--container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+
+    width: 115px;
+    height: 34px;
+    
+    padding: .5em;
+
+    border: 2px solid transparent;
+    border-radius: .5em;
+
+    cursor: pointer;
+
+    font-family: 'Inter', sans-serif;
+    font-size: .8em;
+    
+    transition: all .3s ease;
+}
+
+.button a {
+    text-decoration: none;
+
+    color: #000;
+}
+
+.button a:hover {
+    color: #D1D5DB;
+
+    transition: all .3s ease;
+}
+
+.button--email {
+    background: #D1D5DB;
+
+    color: #000;
+
+}
+
+.button--email:hover {
+    background: #D1D5DB30;
+
+    border: 2px solid #D1D5DB;
+
+    color: #D1D5DB;
+}
+
+.button--linkedin {
+    background: #0077B5;
+
+    color: #FFFFFF;
+}
+
+.button--linkedin:hover {
+    background: #0077B530;
+
+    border: 2px solid #0077B5;
+
+    color: #D1D5DB;
+}
+
+.button--linkedin a {
+    color: #FFFFFF;
+
+    transition: all .3s ease;
+}
+
+.button--linkedin a:hover {
+    color: #D1D5DB;
+}

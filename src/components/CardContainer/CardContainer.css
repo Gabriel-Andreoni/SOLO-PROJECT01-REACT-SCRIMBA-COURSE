@@ -1,0 +1,8 @@
+.card--container {
+    width: 27%;
+    height: auto;
+
+    border-radius: 1em;
+    
+    background: #1A1B21;
+}

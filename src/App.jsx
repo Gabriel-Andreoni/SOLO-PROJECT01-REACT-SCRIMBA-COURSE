@@ -1,10 +1,10 @@
-import Navbar from "./components/NavBar";
-import Main from "./components/Main";
+import CardContainer from './components/CardContainer/CardContainer';
+
+import './App.css';
 export default function App() {
-    return (
-        <>
-            <Navbar />
-            <Main />
-        </>
-    )
+  return (
+    <div className="main--container">
+      <CardContainer />
+    </div>
+  )
 }
